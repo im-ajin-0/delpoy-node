@@ -41,7 +41,7 @@ app.get("/", async (req: Request, res: Response) => {
   // );
 
   return res.json({
-      source: "database",
+      source: "from database",
       data: users,
     });
   }
